@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  }
+
+
+
+/*----------------------------------------------------BackToTop-----------------------------------------------------------------*/
+.floating-btn1 {
+  border-radius: 28px;
+  background-color: #001F61;
+  border: 1px solid #001F61;
+  box-shadow: 0 15px 21px -18px #03153B;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 21px;
+  padding: 13px 21px;
+  position: fixed;
+  bottom: 21px;
+  right: 21px;
+  z-index: 998;
+}
+
+.floating-btn1:hover {
+  background-color: #ffffff;
+  color:#f78c00;
+}
+
+.floating-btn1:focus {
+  outline: none;
+}
+
+/*-----------------------------------------------------------BackToTop-----------------------------------------------------------------*/
+/*-----------------------------------------------------------Quary-----------------------------------------------------------------------*/
+
+#content{
+	position: relative;
+	width: 50%;
+	margin-top:30px;
+  left:25%;
+	margin-bottom:70px;
+	z-index: 1;
+   background-color: #777;
+   border-radius: 20px;
+   background-image:url("singa.jpg");
+  
+}
+ 
+#heading{
+	font-family:Papyrus, fantasy;
+	color: #000000;
+	font-size:40px;
+	text-align: center;
+    display:grid;
+} 
+
+.fieldInput{
+	float:right;
+	width:250px;
+	text-align:center;
+	border:3px solid;
+	border-color:#5f5d5d;
+	border-radius:15px;
+	font-weight:bold;
+	outline-style:none;
+}
+
+.queryForm{
+	width:30%;
+	color:black;
+	margin:auto;
+	margin-top:15px;
+	display:flow-root;
+}
+
+.queryRadioLabel{
+	margin-left:100px;
+
+}
+.radioInput{
+	float:right;
+	margin-top:10px;
+}
+
+#viewQuery{
+	margin-bottom:50px;
+	margin-top:20px;
+	padding:5px 20px 5px 20px;
+	border:3px solid;
+	border-color:black;
+	border-radius:15px;
+	font-weight:bold;
+	outline-style:none;
+}
+#viewQuery:hover,.editandsendbuttons:hover{
+	background-color:#a09797;
+}
+#viewQuery:active,.editandsendbuttons:active{
+	background-color:black;
+	color:white;
+	border-color:white;
+}
+.querySummary{
+	padding:20px;
+	width:40%;
+	margin:auto;
+	margin-top:50px;
+	background:rgba(0,0,0, 0.5);
+	display: grid;
+	grid-template-columns: max-content auto;
+	border-radius:10px;
+}
+.alignCenter{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+  padding: 30px 40px; 
+  position: relative;
+  align-content: center;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+
+.form button {
+  background-color: #db5400;
+  border: 2px solid #db5400;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+/*--------------------------------------------Quary End--------------------------------------------------------------------*/

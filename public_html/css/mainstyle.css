@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Red+Rose:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.ma{
+  position: relative;
+  left: 330px;
+  font-family: "Quicksand",sans-serif;
+  text-align: center;
+  width: 60%;
+  padding: 20px;
+  font-size: 23px;
+}
+
+
+.mainp{
+  position: sticky;
+  left: 360px;
+  font-family: "Quicksand",sans-serif;
+  width: 90%;
+  padding: 50px;
+  font-size: 22px;
+}
+
+
+h3{
+  font-size: 30px;
+  left: 40%;
+  text-align: center;
+  font-family: "Red Rose",sans-serif;
+}
+.underline{
+  display: inline-block;
+  position: relative;
+
+}
+.underline::after{
+  content: "";
+  height: 2px;
+  width: 20%;
+  position: absolute;
+  background:red;
+  left: calc(50% - 10%);
+  bottom: 0;
+
+}
+
+
+.top {
+  position: absolute;
+  text-align: center;
+  letter-spacing: 3px;
+  top: 30%;
+  left:30%;
+  color: #db5400;
+  font-size: 35px;
+  font-family: "Karla",sans-serif;
+  text-decoration: none;
+
+}
+.container{
+  position: relative; 
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition:0.5%
+
+}
+
+.container .content{
+  pointer-events: relative;
+  max-width: 800px;
+}
+h2{
+  font-weight: 600; 
+  margin-bottom: 10px;
+  color: #333;
+  text-align:center;
+}
+
+.container .content img{
+  max-width: 100%;
+  display: block;
+  
+}
+.container .content a{
+  position: relative;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background:#111;
+}
+

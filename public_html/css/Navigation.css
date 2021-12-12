@@ -1,0 +1,72 @@
+/*--------------------------------------------------------------- navigation-------------------------------------------------------- */
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: "Karla",sans-serif;
+  background-color:#262b28;
+
+}
+
+
+.logo{
+  color:#F7411A;
+  letter-spacing: 3px;
+  font-size: 20px;
+  background-image:url('logo.png');
+
+}
+.logo2{
+	width: 80px;
+	float: left;
+	margin-top: 0px;s}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin-top:60px;
+  margin-bottom:60px;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  color:white;
+  font-size: 13px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  padding: 16px 18px;
+}
+li a:hover:not(.active) {
+  background-color: #db5400;
+}
+/*---------------------------------------------End of navigation-------------------------------------------------------------*/
+
+
+/*
+ 	<!-- Main Page -->
+<title>Home | SINTOURIST </title>
+
+<body>
+	<nav>
+		<div class="logo">
+			<h1>SINTOURIST</h1> 
+		</div>
+
+		<ul class="nav-links">
+		  <li><a href="">Home</i></a></li>
+		  <li><a href="">Products</i></a></li>
+		  <li><a href="">Quiz</i></a></li>
+		  <li><a href="">Gallery</i></a></li>
+		  <li><a href="">Feedback</a></li>
+		  <li><a href="">Sitemap</a></li>
+		  <li><a href="">About</a></li>
+		  
+		</ul>
+	</nav>
+	
+	
+	<!-- Main Page -->
+  */

@@ -1,0 +1,261 @@
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/fd54030622.js" crossorigin="anonymous"></script>
+	<meta  name="viewport"  content="width=device-width,  initial-scale=1.0">
+		  <link rel="stylesheet" href="css/feedback.css"> 
+ 	<!-- <link rel="stylesheet" href="test1.css">   -->
+	<link rel="stylesheet" href="css/Navigation.css">
+	<link rel="stylesheet" href="css/Footer.css">
+	
+	<link rel="icon" type="image/png" href="../Images/favicon.ico">
+	<title>Feedback</title>
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<h1>SINGTOURIST</h1> 
+		</div>
+
+		<ul class="nav-links">
+		  <li><a href="https://w1830144.users.ecs.westminster.ac.uk/singtourist.html">Home</a></li>
+		  <li><a href="">Products</a></li>
+		  <li><a href="">Quiz</a></li>
+		  <li><a href="">Gallery</a></li>
+		  <li><a href="https://w1830144.users.ecs.westminster.ac.uk/Feedback.html">Feedback</a></li>
+		  <li><a href="">Sitemap</a></li>
+		  <li><a href="https://w1839054.users.ecs.westminster.ac.uk/About.html">About</a></li>
+		  
+		</ul>
+	</nav>
+		 <div id="content"> 
+			
+			<h1 id="heading"> Queries </h1>
+			
+			<form id="form" action="mailto:janul.20200472@iit.ac.lk" method="POST" enctype="text/plain">
+				
+				<div id="main" >
+				    <!--Shows the form with fields and view query button -->
+					<div class="queryForm">
+						<label for="firstName">First Name :</label>
+						<input class="fieldInput" type="text" name="firstName" id="firstName" placeholder="Enter your First name"><br>
+					</div>
+					<div class="queryForm">
+						<label for="lastName">Last Name :</label>
+						<input class="fieldInput" type="text" name="lastName" id="lastName" placeholder="Enter your Last name"><br>
+					</div>
+					<div class="queryForm">
+						<label for="email">Email :</label>
+						<input class="fieldInput" type="email" id="email" name="email" placeholder="alex123@gmail.com"><br>
+					</div>
+					<div class="queryForm">
+						<label for="phone">Contact Number :</label>
+						<input class="fieldInput" type="tel" id="phone" name="phone" placeholder="+9476 3350780"><br>
+					</div>
+					 
+					<div class="queryForm">
+					<!--Radion buttons to select subject of the query -->
+						<p>Subject of the query :</p>
+							<label for="Products" class="queryRadioLabel">Delivery</label>
+							<input class="radioInput" type="radio" name="querySubject" id="delivery" value="Products"><br><br>
+							<label for="stock" class="queryRadioLabel">Stocks</label>
+							<input class="radioInput" type="radio" name="querySubject" id="stock" value="Stock Availabilty"><br><br>
+							<label for="agent" class="queryRadioLabel">Contact our agent directly</label>
+							<input class="radioInput" type="radio" name="querySubject" id="agent" value="Contact our Agent"><br><br>
+							<label for="other" class="queryRadioLabel">Other</label>
+							<input class="radioInput" type="radio" name="querySubject" id="other" value="Other"><br><br>
+							
+					</div>
+					<div class="queryForm">
+						<label for="details" >Query Detials :</label>
+						<textarea class="fieldInput" name="details" id="details" rows="10" placeholder="Query Details"></textarea>
+					</div>
+					<div class="alignCenter">
+						<input type="button" name="viewQuery" value="View Query" id="viewQuery" onclick="validation(this.form)">
+					</div>
+				</div>
+	     </div>
+				
+				<div id="summaryView">
+				<!-- This div is reserved to write summary of the form -->
+		</div>
+				
+			</form>
+			
+			
+			<div><a href="https://w1830144.users.ecs.westminster.ac.uk/Feedback.html" target="_blank" class="pageEditor">Page Editor</a></div>			
+		
+		
+		<!-- footer-->
+	<div class="footer">
+            <div class="footer-content">
+            <div class="footer-section abt">
+                <div class="logo">
+					<h1 style="text-align: center;" id="footer-head">SINGTOURIST</h1> 
+				</div>
+				
+                <p id="footer-text">Copyright � 2020 Digital AG,<br> All rights reserved.<br>
+                DJHC� is a trademark owned by a Group with its headquarters at 
+				Mill Street, Singapore, SE1 2BA, Singapore. This site is owned by DJHC�.
+				</p>
+            </div>
+            <div class="footer-section links">
+                <h4>Quick Links</h4>
+
+                <ul>
+                    <a class="flinks" href="https://w1830144.users.ecs.westminster.ac.uk/singtourist.html"><li>Home</li></a>
+                    <a class="flinks" href=""><li>Products</li></a>
+                    <a class="flinks" href=""><li>Quiz</li></a>
+                    <a class="flinks" href=""><li>Gallery</li></a>
+                </ul>
+            </div>
+            <div class="footer-section links">
+                <h4>More</h4>
+                <ul>
+					<a class="flinks" href=""><li>About us</li></a>
+                    <a class="flinks" href="https://w1830144.users.ecs.westminster.ac.uk/Feedback.html"><li>Feedback</li></a>
+                    <a class="flinks" href=""><li>Site Map</li></a>
+                </ul>
+            </div>
+            <div class="footer-section links">
+                <h4>Our Socials</h4>
+
+                <ul>
+                    <a class="flinks" href="https://www.facebook.com/"><li><i class="fab fa-facebook-square" aria-hidden="true"> Facebook</i></li></a>
+                    <a class="flinks" href="https://www.instagram.com/"><li><i class="fab fa-instagram" aria-hidden="true"> Instagram</i></li></a>
+                    <a class="flinks" href="https://www.youtube.com/"><li><i class="fab fa-youtube" aria-hidden="true"> Youtube</i></li></a>
+                    <a class="flinks" href="https://twitter.com/"><li><i class="fab fa-twitter" aria-hidden="true"> Twitter</i></li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p id="footer-bottom-text"> @singtourist.com | Page Edited by<span id="page-editor" onclick="openNav()"> Janul Sellahewa</span></p>
+        </div>
+       </div>
+	   <div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+		  <div class="overlay-content">
+			<img src="images/janu.jpg" alt="jana"><br>
+			<h1 id="page-editor-name">Janul Sellahewa</h1><br>
+			<p id="page-editor-details"><b>Student No 2<br>
+			IIT ID: 20200472<br>
+			UoW ID: w1830144
+			<dl class="page-editor-details">
+				<dt>List Of Tasks Completed:</dt>
+				<dd> Task 02</dd>
+				<dd> Task 03</dd>
+				<dd> Task 09a</dd>
+				<dd> Task 10</dd>
+				<dd> Task 11</dd>
+				<dd> Task 12</dd>
+				<dd> Task 13</dd>
+				<dd> Pages validated with no errors</dd>
+				<dd> Uploaded to University Server</dd>
+			</b></p>
+		  </div>
+		</div>
+	<!--//footer-->
+		
+	
+		<script>
+			var unfilled = []; 
+			
+			function getRadioValue(radioArray){
+			// <!--Returns the value of the selected radio button -->
+				var i;
+				for(i=0;i<radioArray.length;i++){
+					if(radioArray[i].checked){
+						return radioArray[i].value;
+					}
+				}
+				return "";
+			}
+			
+			function alertHandler(array){
+			// Checks for empty fields from the array and shows the relavent alert 
+				var i;
+				for(i=0;i<array.length;i++){
+					if(array[i]=="query subject"){
+						alert("Please select your "+array[i]+" from list provided")
+					}else{
+						alert("Please enter your "+array[i]+" to the relavent field")
+					}
+				}
+			}
+			
+			function validation(formRef){
+			// If there are empty fields relavent field will be added to an array and if there is no empty fileds, writes summary of the details to the div tag -->
+				var radioSelected = getRadioValue(formRef.querySubject);
+				unfilled=[];
+				if(formRef.firstName.value==""){
+					unfilled.push("first name");
+				}
+				if(formRef.lastName.value==""){
+					unfilled.push("last name");
+				}
+				if(formRef.email.value==""){
+					unfilled.push("email");
+				}
+				if(formRef.phone.value==""){
+					unfilled.push("phone number");
+				}
+				if (radioSelected==""){
+					unfilled.push("query subject");
+				if(formRef.details.value==""){
+					unfilled.push("query details");
+				}
+				}
+				alertHandler(unfilled);
+				if(unfilled.length==0){
+				// Hides the div with the form and displays the div with summary -->
+					document.getElementById("main").style.display = 'none';
+					document.getElementById("summaryView").style.display = 'block';
+					// Writes summary details to the div -->
+					document.getElementById("summaryView").innerHTML =	'<dl class="querySummary"><dt class="topic">Name : </dt>'+
+																	'<dd class="value">'+formRef.firstName.value+' '+formRef.lastName.value+'</dd>'+
+																	'<dt class="topic">Email : </dt>'+
+																	'<dd class="value">'+formRef.email.value+'</dd>'+
+																	'<dt class="topic">Contact Number : </dt>'+
+																	'<dd class="value">'+formRef.phone.value+'</dd>'+
+																	'<dt class="topic">Subject : </dt>'+
+																	'<dd class="value">'+radioSelected+'</dd>'+
+																	'<dt class="topic">Details : </dt>'+
+																	'<dd class="value">'+formRef.details.value+'</dd></dl>'+
+																	'<div class="alignCenter"><input class="editandsendbuttons" type="button" name="edit" value="Edit" id="edit" onclick="previousPage()">'+
+																	'<button class="editandsendbuttons" type="button" value="submitted" onclick="previousAndClear(this.form)">Send</button></div>'
+				}
+			}
+			
+			function previousPage(){
+			// Hides the div with summary and displays the div with the form
+				document.getElementById("summaryView").style.display = 'none';
+				document.getElementById("main").style.display = 'block';
+			}
+			function previousAndClear(formRef){
+			// Hides the div with summary and displays the div with the form / Opens email client of the user with filled details of the sender,description and receiver /  Resets the form-->
+				alert("Your query will be sent to your E-Mail client.Please send the E-Mail to our team and we will try our best to get back to you soon")
+				document.getElementById("summaryView").style.display = 'none';
+				document.getElementById("main").style.display = 'block';
+				document.getElementById("form").submit();
+				document.getElementById("form").reset();
+			}
+			
+		
+			
+			
+			
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+<a href="https://w1830144.users.ecs.westminster.ac.uk/HTML/MainPage.html#">
+	<button class="floating-btn1">Back to top <i class="fas fa-angle-up" aria-hidden="true"></i></button>
+</a>
+
+	</body>
+	
+	
+</html>

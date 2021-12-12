@@ -1,0 +1,265 @@
+/*----------------------------------------------------Footer Start------------------------------------------------------------*/
+.footer {
+  background: #303036;
+  color: #d3d3d3;
+  height: 250px;
+
+  position: relative;
+  opacity: 97%;
+}
+
+.footer .footer-content {
+  border: 1px black;
+  height: 250px;
+  display: flex;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+}
+
+.footer .footer-bottom {
+  background: #343a40;
+  color: #686868;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 0px;
+}
+
+.flinks {
+  text-align: center;
+  font-family: 'Lexend Zetta', sans-serif;
+  list-style: none;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 4px 5px;
+}
+
+h4 {
+  font-family: montserrat;
+  text-align: center;
+  margin-top: 12px;
+  color: #db5400;
+  font-family: 'Lexend Zetta', sans-serif;
+}
+
+
+#footer-text {
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+  list-style: none;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 4px 5px;
+  opacity: 50%;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#footer-bottom-text {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #9ea8a1;
+}
+
+#footer-head {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: grey;
+  font-size:20px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f22222;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+	.overlay a {
+		font-size: 20px;
+	}
+	
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
+
+.overlay img{
+  height:250px;
+  width:250px;
+  border-radius:50%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding:5px;
+}
+
+#page-editor {
+  font-family: 'Lexend Zetta', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fffb00;
+}
+
+
+#page-editor-name {
+  font-family: 'Lexend Zetta', sans-serif;
+  font-size: 18px;
+  color: orange;
+  text-align: center;
+}
+#page-editor-details {
+  font-family: 'Lexend Zetta', sans-serif;
+  font-size: 14px;
+  color: orange;
+  text-align: center;
+}
+/*----------------------------------------------------Footer End------------------------------------------------------------*/
+
+/*----------------------------------------------------BackToTop-----------------------------------------------------------------*/
+.floating-btn1 {
+  border-radius: 28px;
+  background-color: #001F61;
+  border: 1px solid #001F61;
+  box-shadow: 0 15px 21px -18px #03153B;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 21px;
+  padding: 13px 21px;
+  position: fixed;
+  bottom: 21px;
+  right: 21px;
+  z-index: 998;
+}
+
+.floating-btn1:hover {
+  background-color: #ffffff;
+  color:#f78c00;
+}
+
+.floating-btn1:focus {
+  outline: none;
+}
+
+
+
+/********************************************HTML Backtotop*******************************************/
+
+/* <a href="https://w1830144.users.ecs.westminster.ac.uk/HTML/MainPage.html#">
+		<button class="floating-btn1">Back to top <i class="fas fa-angle-up" aria-hidden="true"></i></button>
+	</a>
+		 */
+
+/*-----------------------------------------------------------BackToTop-----------------------------------------------------------------*/
+
+
+/*
+ 	<!--footer-->
+
+
+<div class="footer">
+            <div class="footer-content">
+            <div class="footer-section abt">
+                <div class="logo">
+					<h1 style="text-align: center;" id="footer-head">SINTOURIST</h1> 
+				</div>
+				
+                <p id="footer-text">Copyright © 2020 Digital AG,<br> All rights reserved.<br>
+                DJHC® is a trademark owned by a Group with its headquarters at 
+				Mill Street, Singapore, SE1 2BA, Singapore. This site is owned by DJHC®.
+				</p>
+            </div>
+            <div class="footer-section links">
+                <h4>Quick Links</h4>
+
+                <ul>
+                    <a class="flinks" href=""><li>Home</li></a>
+                    <a class="flinks" href=""><li>Products</li></a>
+                    <a class="flinks" href=""><li>Quiz</li></a>
+                    <a class="flinks" href=""><li>Gallery</li></a>
+                </ul>
+            </div>
+            <div class="footer-section links">
+                <h4>More</h4>
+                <ul>
+					<a class="flinks" href=""><li>About us</li></a>
+                    <a class="flinks" href=""><li>Feedback</li></a>
+                    <a class="flinks" href=""><li>Site Map</li></a>
+                </ul>
+            </div>
+            <div class="footer-section links">
+                <h4>Our Socials</h4>
+
+                <ul>
+                    <a class="flinks" href="https://www.facebook.com/"><li><i class="fab fa-facebook-square" aria-hidden="true"> Facebook</i></li></a>
+                    <a class="flinks" href="https://www.instagram.com/"><li><i class="fab fa-instagram" aria-hidden="true"> Instagram</i></li></a>
+                    <a class="flinks" href="https://www.youtube.com/"><li><i class="fab fa-youtube" aria-hidden="true"> Youtube</i></li></a>
+                    <a class="flinks" href="https://twitter.com/"><li><i class="fab fa-twitter" aria-hidden="true"> Twitter</i></li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p id="footer-bottom-text">© Sintours.com | Page Edited by<span id="page-editor" onclick="openNav()"> Janul Sellahewa</span></p>
+        </div>
+       </div>
+	   <div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+		  <div class="overlay-content">
+			<img src="jana.jpg" alt="nadil"><br>
+			<h1 id="page-editor-name">Janul Sellahewa</h1><br>
+			<p id="page-editor-details"><b>Student No 2<br>
+			IIT ID: 20200472<br>
+			UoW ID: w1830144
+			</b></p>
+		  </div>
+		</div>
+	<!--//footer-->
+  */
